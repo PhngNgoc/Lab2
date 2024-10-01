@@ -1,3 +1,9 @@
+<<<<<<< Updated upstream
+=======
+"./Core/Src/ex1.o"
+"./Core/Src/ex2.o"
+"./Core/Src/ex3.o"
+>>>>>>> Stashed changes
 "./Core/Src/main.o"
 "./Core/Src/stm32f1xx_hal_msp.o"
 "./Core/Src/stm32f1xx_it.o"
