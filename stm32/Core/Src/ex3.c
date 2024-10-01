@@ -84,16 +84,12 @@ void ex3(){
   	}
 }
 
+
 void ex5(){
-		if ( timer1_flag == 1 ){
-			  	setTimer1(25);
-			  	updateClockBuffer(minute, hour);
-			  	update7SEG(index_led);
-			  	index_led++;
-			  	if (index_led >= MAX_LED ) index_led = 0;
-		}
-	  	if ( timer2_flag == 1 ){
-	  		setTimer2(100);
+			  updateClockBuffer(minute, hour);
+			  update7SEG(index_led);
+			  index_led++;
+			  if (index_led >= MAX_LED ) index_led = 0;
 			  second++;
 			  if ( second >= 60 ) {
 				  second = 0;
@@ -109,5 +105,5 @@ void ex5(){
 	  		//to do
 	  		HAL_GPIO_TogglePin(LED_RED_GPIO_Port, LED_RED_Pin);
 	  		HAL_GPIO_TogglePin(DOT_GPIO_Port, DOT_Pin);
-	  	}
+	  		HAL_Delay(1000);
 }
