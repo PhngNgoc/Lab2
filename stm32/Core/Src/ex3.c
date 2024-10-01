@@ -84,7 +84,7 @@ void ex3(){
   	}
 }
 
-void ex5(){
+void ex8(){
 		if ( timer1_flag == 1 ){
 			  	setTimer1(25);
 

@@ -14,6 +14,6 @@ extern int index_led;
 void update7SEG( int index_led );
 void updateClockBuffer(int minute, int hour);
 void ex3();
-void ex5();
+void ex8();
 
 #endif /* INC_EX3_H_ */

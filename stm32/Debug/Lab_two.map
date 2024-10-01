@@ -2454,8 +2454,8 @@ LOAD d:/tailieu/241/vxl/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube
  .text.updateClockBuffer
                 0x0000000008000580       0xa8 ./Core/Src/ex3.o
                 0x0000000008000580                updateClockBuffer
- .text.ex5      0x0000000008000628       0xcc ./Core/Src/ex3.o
-                0x0000000008000628                ex5
+ .text.ex8      0x0000000008000628       0xcc ./Core/Src/ex3.o
+                0x0000000008000628                ex8
  .text.main     0x00000000080006f4       0x24 ./Core/Src/main.o
                 0x00000000080006f4                main
  .text.SystemClock_Config
