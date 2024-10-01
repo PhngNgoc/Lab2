@@ -100,8 +100,7 @@ int main(void)
 
   while (1)
   {
-	  updateLEDMatrix(0);
-	  HAL_Delay(1000);
+	  ex5();
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

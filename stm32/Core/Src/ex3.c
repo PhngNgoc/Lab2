@@ -87,8 +87,7 @@ void ex3(){
 void ex5(){
 		if ( timer1_flag == 1 ){
 			  	setTimer1(25);
-
-				  updateClockBuffer(minute, hour);
+			  	updateClockBuffer(minute, hour);
 			  	update7SEG(index_led);
 			  	index_led++;
 			  	if (index_led >= MAX_LED ) index_led = 0;
